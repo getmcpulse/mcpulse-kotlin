@@ -23,7 +23,7 @@ it.
 
 ```kotlin
 dependencies {
-    implementation("com.getmcpulse:mcpulse:0.1.0")
+    implementation("com.getmcpulse:mcpulse-kotlin:0.1.0")
 }
 ```
 
