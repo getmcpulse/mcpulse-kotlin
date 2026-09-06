@@ -8,7 +8,8 @@ import java.security.MessageDigest
 /**
  * The cross-language contract, plus the parts of the SDK only the JVM can get wrong.
  *
- * `canonical.json` is the shared conformance suite, copied from mcpulse-sdk-spec. Every other
+ * `canonical.json` is the shared conformance suite, copied from
+ * `packages/schemas/fixtures` in the mcpulse monorepo. Every other
  * MCPulse SDK runs the same file. If it passes in all of them, their hashes are interchangeable and
  * a customer running more than one sees one set of numbers rather than several.
  *
