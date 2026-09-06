@@ -4,7 +4,7 @@ plugins {
     `maven-publish`
 }
 
-group = "com.mcpulse"
+group = "com.getmcpulse"
 version = "0.1.0"
 
 kotlin {

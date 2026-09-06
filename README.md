@@ -3,8 +3,8 @@
 Analytics for MCP servers, in Kotlin.
 
 ```kotlin
-import com.mcpulse.MCPulse
-import com.mcpulse.Options
+import com.getmcpulse.MCPulse
+import com.getmcpulse.Options
 
 MCPulse.configure(Options(key = "mp_live_…"))
 
@@ -23,7 +23,7 @@ it.
 
 ```kotlin
 dependencies {
-    implementation("com.mcpulse:mcpulse:0.1.0")
+    implementation("com.getmcpulse:mcpulse:0.1.0")
 }
 ```
 
@@ -91,7 +91,7 @@ Or with nothing but `kotlinc`:
 ./fetch-test-deps.sh    # lib/ is gitignored; this pulls the jars
 CP="lib/jackson-databind-2.18.2.jar:lib/jackson-core-2.18.2.jar:lib/jackson-annotations-2.18.2.jar"
 kotlinc src/main/kotlin/com/mcpulse/*.kt src/test/kotlin/com/mcpulse/*.kt -cp "$CP" -d out
-java -cp "out:$CP:$KOTLIN_HOME/lib/kotlin-stdlib.jar" com.mcpulse.ConformanceTest
+java -cp "out:$CP:$KOTLIN_HOME/lib/kotlin-stdlib.jar" com.getmcpulse.ConformanceTest
 ```
 
 ## Licence
