@@ -2,6 +2,8 @@
 
 Analytics for MCP servers, in Kotlin.
 
+**[getmcpulse.com](https://getmcpulse.com)** · [Docs](https://docs.getmcpulse.com) · [Dashboard](https://app.getmcpulse.com)
+
 ```kotlin
 import com.getmcpulse.MCPulse
 import com.getmcpulse.Options

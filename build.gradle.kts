@@ -32,7 +32,7 @@ publishing {
             pom {
                 name.set("mcpulse")
                 description.set("Analytics for MCP servers. One import, one wrap.")
-                url.set("https://github.com/getmcpulse/mcpulse-kotlin")
+                url.set("https://getmcpulse.com")
                 licenses {
                     license {
                         name.set("MIT")
